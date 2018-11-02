@@ -1,0 +1,90 @@
+body {
+ position: relative;
+ width: 100%; 
+}
+
+.navbar navbar-expand-sm flex-column flex-md-row navbar-dark{
+  width: 100%;
+}
+
+.container-fluid{
+  padding: 0 !important;
+  background-color: rgba(53, 53, 84, .25);
+}
+
+.navbar-brand {
+  color: #FFF !important;
+}
+
+#barText{
+  color: #FFF;
+}
+
+
+.carousel-inner > .item {
+    position: relative;
+    display: none;
+    -webkit-transition: 0.3s ease-in-out left;
+    -moz-transition: 0.3s ease-in-out left;
+    -o-transition: 0.3s ease-in-out left;
+    transition: 0.3s ease-in-out left;
+}
+
+.holidaySubheadings {
+ text-align: center; 
+ margin: 3% 0;
+}
+
+ul {
+ text-align:center;
+}
+
+a:link {
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
+
+#holiday1pic {
+  text-align: center; 
+}
+
+#holiday1pics {
+ padding-left: 10%; 
+}
+
+#holiday_pics1{
+    border-radius: 80%;
+    margin-top:15%;
+}  
+
+#holiday_pics2{
+    border-radius: 80%;
+    margin-top:15%;
+} 
+
+#holiday_pics3{
+    border-radius: 80%;
+    margin-top:15%;
+}  
+
+
+h6 {
+  text-align:center;
+}
+
+.holidayPortion {
+ background-color: #db7902; 
+ padding: 1% 1%;
+}
+
+#otherLinks {
+  background-color: grey;
+}
+
+h3{
+  text-align:center;
+  padding: 3% 0;
+}
