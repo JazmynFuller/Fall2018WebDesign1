@@ -1,5 +1,6 @@
 # WebDesign1
 https://jazmyn.neocities.org/WebDesignMidtermProject/bakeHome.html
+
 This project was for us to experiment with HTML and CSS
 
 My Website serves a platform for bakers levelled from novice to expert
