@@ -1,19 +1,20 @@
-body {
- position: relative;
- width: 100%; 
-}
-
-.navbar navbar-expand-sm flex-column flex-md-row navbar-dark{
-  width: 100%;
+.navbar {
+  height: 70px !important; 
 }
 
 .container-fluid{
+  /*overflow: hidden;*/
+  /*margin:0 !important;*/
   padding: 0 !important;
+  width: 100% !important; 
   background-color: rgba(53, 53, 84, .25);
 }
 
 .navbar-brand {
   color: #FFF !important;
+}
+#gif {
+  margin-left:5%; 
 }
 
 #barText{
@@ -22,25 +23,71 @@ body {
 
 
 .carousel-inner > .item {
-    position: relative;
-    display: none;
     -webkit-transition: 0.3s ease-in-out left;
     -moz-transition: 0.3s ease-in-out left;
     -o-transition: 0.3s ease-in-out left;
     transition: 0.3s ease-in-out left;
 }
 
+
+#firstCaro {
+  opacity: .85;
+}
+
+
+#secondCaro {
+  opacity: .85;
+}
+
+#thirdCaro {
+  opacity: .9;
+}
+
+#badBackground1{
+  color: rgba(0,0,0,.75); 
+}
+
+
+.carousel-caption {
+  margin-left: -13% !important;
+  text-align: left !important; 
+}
+
+
+#badBackground{
+ color: #000; 
+}
+
+#badBackground h5{
+ text-shadow: 0px 2px rgba(0,0,0,.35);
+ color: #000; 
+}
+
+.carousel-caption h5{
+  text-shadow: 0px 2px rgba(0,0,0,.35);
+  font-size: 200%; 
+}
+
 .holidaySubheadings {
+ color: #efe3d5;
+ font-size: 300%;
  text-align: center; 
- margin: 3% 0;
+ margin: 2% 0;
+ text-shadow: 0px 2px rgba(0,0,0,.35);
+ text-decoration: none !important; 
 }
 
 ul {
  text-align:center;
+ color: black;
 }
 
 a:link {
     color: black;
+}
+
+a:hover {
+ text-decoration: none !important; 
 }
 
 a:visited {
@@ -70,6 +117,11 @@ a:visited {
     margin-top:15%;
 }  
 
+#holiday3Pics {
+  padding-left: 10%; 
+  padding-bottom: 3%; 
+}
+
 
 h6 {
   text-align:center;
@@ -81,10 +133,55 @@ h6 {
 }
 
 #otherLinks {
-  background-color: grey;
+  background-color: #bc9436;
+  text-shadow: 0px 2px rgba(255,255,255,.15);
 }
+
+#otherLinks h3 {
+  font-size: 225% !important;
+}
+
 
 h3{
   text-align:center;
   padding: 3% 0;
+  margin-left: 3%;
 }
+
+#bdayPic {
+  border-radius: 80%;
+  margin-left: 20%; 
+  margin-bottom: 10%;
+}
+
+#weddingPic {
+  border-radius: 80%;
+  margin-left: 25%; 
+  margin-bottom: 14%;
+}
+
+#babyPic {
+  border-radius: 80%;
+  margin-left: 30%; 
+  margin-bottom: 11%;
+}
+
+
+.otherh4-1{
+  margin-left: 31%; 
+  padding-bottom: 10%;
+  color: rgba(255,255,255,.8);
+}
+
+.otherh4-2{
+  margin-left: 37%; 
+  padding-bottom: 10%;
+  color: rgba(255,255,255,.8);
+}
+
+.otherh4-3{
+  margin-left: 37%; 
+  padding-bottom: 10%;
+  color: rgba(255,255,255,.8);
+}
+

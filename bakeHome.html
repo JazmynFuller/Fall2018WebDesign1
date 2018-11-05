@@ -8,15 +8,19 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
   </head>
   <body>
+  
+    <nav class="navbar navbar-expand-xl flex-column flex-md-row navbar-light" style="background-color: #c69903">
+                <a class="navbar-brand">Holiday Baking Ideas<img src="turkeyGif.gif" id="gif" width="80px" height="80px"></a>
+                <a class="nav-item nav-link" id="barText" href="#">Home</a>
+                <a class="nav-item nav-link" id="barText" href="#">Halloween</a> <!-- Change link after-->
+                <a class="nav-item nav-link" id="barText" href="#">Thanksgiving</a> <!-- Change link after-->
+                <a class="nav-item nav-link" id="barText" href="https://jazmyn.neocities.org/WebDesignMidtermProject/holiday1a.html">Christmas</a> <!-- Change link after-->
+                <a class="nav-item nav-link" id="barText" href="#">Birthday</a> <!-- Change link after-->
+      </nav>
+      
     <div class="container-fluid">
         
-      <nav class="navbar navbar-expand-sm flex-column flex-md-row navbar-light" style="background-color: #2f3442">
-                <a class="navbar-brand">Holiday Baking Ideas<img src="https://thumbs.gfycat.com/DefenselessSparseAstrangiacoral-small.gif" id="gif" width="50px" height="50px"></a>
-                <a class="nav-item nav-link" id="barText" href="#">Home</a>
-                <a class="nav-item nav-link" id="barText" href="recentStops.html">Fall Ideas</a> <!-- Change link after-->
-                <a class="nav-item nav-link" id="barText" href="#">Christmas Ideas</a> <!-- Change link after-->
-                <a class="nav-item nav-link" id="barText" href="#">Birthday Ideas</a>
-              </nav>
+      
       
       <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
@@ -26,24 +30,24 @@
             </ol>
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img class="d-block w-100 img-fluid" src="ghostCupcakes.jpg" alt="First slide">
+            <img class="d-block w-100 img-fluid" src="musicCupcakes.jpg" alt="First slide" id="firstCaro">
             <div class="carousel-caption">
-              <h5>Ghost Cupcakes</h5>
-              <p>Your favourite cake flavour topped with spooky frosting!</p>
+              <h5>Music Cupcakes</h5>
+              <p>Music is good for the soul, and the stomach!</p>
             </div>
           </div>
           <div class="carousel-item">
-            <img class="d-block w-100 img-fluid" src="spiderCookie.jpg" alt="Second slide">
+            <img class="d-block w-100 img-fluid" src="mysteryBox.jpg" alt="Second slide" id="secondCaro">
              <div class="carousel-caption">
-              <h5>Spider Cookies</h5>
-              <p>Creepy Chocolate Crawlers!</p>
+              <h5 id="badBackground">Mystery Box Cake</h5>
+              <p id="badBackground">Level up with this recipe!</p>
             </div>
           </div>
           <div class="carousel-item">
-            <img class="d-block w-100 img-fluid" src="graveyard.jpg" alt="Third slide">
+            <img class="d-block w-100 img-fluid" src="rosePops.jpg" alt="Third slide" id="thirdCaro">
              <div class="carousel-caption">
-              <h5>Goodie Graveyard</h5>
-              <p>Grab goodies in the haunted, yet sweet graveyard!</p>
+              <h5>Ice Cream Cake Pops</h5>
+              <p id="badBackground1">This one will never give you brain-freeze!</p>
             </div>
           </div>
         </div>
@@ -69,38 +73,38 @@
        
         <div class="row justify-content-sm-center" id="holiday1pics">
           <div class="col col-sm-4" id="holiday1Pic">
-            <a href="https://whatshouldimakefor.com/easy-ghost-cupcakes/"> <img class="img-fluid" id="holiday_pics1" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNcDjIL2E1OCJZRzo265orawsmFNEjAfIYp_b-MAiAXKDZ-UV_PA" alt="Ghost Cupcakes Up Close" width="250px" height="100px"/> </a>
+            <a href="https://whatshouldimakefor.com/easy-ghost-cupcakes/"> <img class="img-fluid" id="holiday_pics1" src="ghostCupcakes.jpg" alt="Ghost Cupcakes Up Close" width="250px" height="100px"/> </a>
           </div>
           
           <div class="col col-sm-4" id="holiday1Pic">
-            <a href="https://whatshouldimakefor.com/easy-ghost-cupcakes/"> <img class="img-fluid" id="holiday_pics2" src="spiderCookie.jpg" alt="Spider Cookies Up Close" width="250px" height="150px"/> </a>
+            <a href="https://www.mommymusings.com/halloween-peanut-butter-spider-cookies-recipe/"> <img class="img-fluid" id="holiday_pics2" src="spiderCookie.jpg" alt="Spider Cookies Up Close" width="250px" height="150px"/> </a>
           </div>
           
           <div class="col col-sm-4" id="holiday1Pic">
-            <a href="https://whatshouldimakefor.com/easy-ghost-cupcakes/"> <img class="img-fluid" id="holiday_pics3" src="graveyard.jpg" alt="Goodie Graveyard" width="250px" height="150px"/> </a>
+            <a href="https://www.foodnetwork.com/recipes/food-network-kitchen/pull-apart-graveyard-cupcakes-recipe-2125955"> <img class="img-fluid" id="holiday_pics3" src="graveyard.jpg" alt="Goodie Graveyard" width="250px" height="150px"/> </a>
           </div>
         </div> 
        
        <div class="row justify-content-sm-center">
           <div class="col-sm-12">
             <h3 class="holidaySubheadings">Thanksgiving Recipes</h3>
-              <ul><strong><a href="https://whatshouldimakefor.com/easy-ghost-cupcakes/">Tasty Turkey Cupcakes:</a></strong> Bake from scratch or with the box. If you're a candy corn lover this is for you!</ul>
-            <ul><strong>Autumn Leave Sugar Cookies:</strong> Upgrade your snickerdoodles to spiderdoodles, and you'll be ready for Halloween!</ul>
-            <ul><strong>Plump Pumpkin Pastries:</strong> Who said graveyards can't be both: Spooky and Sweet.</ul>
+              <ul><strong><a href="https://whatshouldimakefor.com/easy-ghost-cupcakes/">Tasty Turkey Cupcakes:</a></strong> If you're a candy corn or Reese's lover this is for you! If not, swap the candy corn for Kit-Kat, it'll still look like a Turkey.</ul>
+            <ul><strong>Autumn Leave Sugar Cookies:</strong> Regular sugar cookies already hit the spot, spice them up with some Autumn Designs!</ul>
+            <ul><strong>Plump Pumpkin Pastries:</strong> Don't like the taste of pumpkin but want to fit the Fall aesthetic? Try this recipe!</ul>
           </div> 
        </div>
        
         <div class="row justify-content-sm-center" id="holiday1pics">
           <div class="col col-sm-4" id="holiday1Pic">
-            <a href="https://whatshouldimakefor.com/easy-ghost-cupcakes/"> <img class="img-fluid" id="holiday_pics1" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNcDjIL2E1OCJZRzo265orawsmFNEjAfIYp_b-MAiAXKDZ-UV_PA" alt="Ghost Cupcakes Up Close" width="250px" height="100px"/> </a>
+            <a href="https://whatshouldimakefor.com/easy-ghost-cupcakes/"> <img class="img-fluid" id="holiday_pics1" src="turkeyCupcakes.jpg" alt="Ghost Cupcakes Up Close" width="250px" height="100px"/> </a>
           </div>
           
           <div class="col col-sm-4" id="holiday1Pic">
-            <a href="https://whatshouldimakefor.com/easy-ghost-cupcakes/"> <img class="img-fluid" id="holiday_pics2" src="spiderCookie.jpg" alt="Spider Cookies Up Close" width="250px" height="150px"/> </a>
+            <a href="https://whatshouldimakefor.com/easy-ghost-cupcakes/"> <img class="img-fluid" id="holiday_pics2" src="autumnLeaveCookies.jpg" alt="Spider Cookies Up Close" width="250px" height="150px"/> </a>
           </div>
           
           <div class="col col-sm-4" id="holiday1Pic">
-            <a href="https://whatshouldimakefor.com/easy-ghost-cupcakes/"> <img class="img-fluid" id="holiday_pics3" src="graveyard.jpg" alt="Goodie Graveyard" width="250px" height="150px"/> </a>
+            <a href="https://whatshouldimakefor.com/easy-ghost-cupcakes/"> <img class="img-fluid" id="holiday_pics3" src="pumpkinPastries.jpg" alt="Goodie Graveyard" width="250px" height="150px"/> </a>
           </div>
         </div> 
        
@@ -113,43 +117,49 @@
        
        <div class="row justify-content-sm-center">
           <div class="col-sm-12">
-            <h3 class="holidaySubheadings">Christmas Recipes</h3>
-             <ul><strong><a href="https://whatshouldimakefor.com/easy-ghost-cupcakes/">Tasty Turkey Cupcakes:</a></strong> Bake from scratch or with the box. If you're a candy corn lover this is for you!</ul>
-            <ul><strong>Autumn Leave Sugar Cookies:</strong> Upgrade your snickerdoodles to spiderdoodles, and you'll be ready for Halloween!</ul>
-            <ul><strong>Plump Pumpkin Pastries:</strong> Who said graveyards can't be both: Spooky and Sweet.</ul>
+            <a href="https://jazmyn.neocities.org/WebDesignMidtermProject/holiday1a.html"><h3 class="holidaySubheadings">Christmas Recipes</h3></a>
+             <ul><strong><a href="https://www.lecremedelacrumb.com/santas-cookies-double-chocolate-chip-mm-cookies/">Santa's Cookies:</a></strong> If you want Santa to hurry down the chimney, I suggest you give him some motivation with these sweet treats!</ul>
+            <ul><strong><a href="https://www.bettycrocker.com/recipes/holiday-ornament-cupcakes/2a97e2f2-a7dc-4fed-9137-e30c2ae6fe00">Ornament Cupcakes:</a></strong> Couldn't get the ornament you wanted for your tree this year? Design your own, and eat them!</ul>
+            <ul><strong><a href="https://lilluna.com/easy-brownie-christmas-trees-2/">Christmas Tree Brownies:</a></strong> Brownies are for every season, but 'tis the season accordingly.</ul>
           </div> 
        </div>
        
-        <div class="row justify-content-sm-center" id="holiday1pics">
-          <div class="col col-sm-4" id="holiday1Pic">
-            <a href="https://whatshouldimakefor.com/easy-ghost-cupcakes/"> <img class="img-fluid" id="holiday_pics1" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNcDjIL2E1OCJZRzo265orawsmFNEjAfIYp_b-MAiAXKDZ-UV_PA" alt="Ghost Cupcakes Up Close" width="250px" height="100px"/> </a>
+        <div class="row justify-content-sm-center" id="holiday3Pics">
+          <div class="col col-sm-4" id="holiday3Pic">
+            <a href="https://jazmyn.neocities.org/WebDesignMidtermProject/holiday1.html#santasCookies"> <img class="img-fluid" id="holiday_pics1" src="santasCookies.jpg" alt="Ghost Cupcakes Up Close" width="250px" height="100px"/> </a>
           </div>
           
-          <div class="col col-sm-4" id="holiday1Pic">
-            <a href="https://whatshouldimakefor.com/easy-ghost-cupcakes/"> <img class="img-fluid" id="holiday_pics2" src="spiderCookie.jpg" alt="Spider Cookies Up Close" width="250px" height="150px"/> </a>
+          <div class="col col-sm-4" id="holiday3Pic">
+            <a href="https://jazmyn.neocities.org/WebDesignMidtermProject/holiday1.html#ornamentCupcakes"> <img class="img-fluid" id="holiday_pics2" src="ornamentCupcakes.jpg" alt="Spider Cookies Up Close" width="250px" height="150px"/> </a>
           </div>
           
-          <div class="col col-sm-4" id="holiday1Pic">
-            <a href="https://whatshouldimakefor.com/easy-ghost-cupcakes/"> <img class="img-fluid" id="holiday_pics3" src="graveyard.jpg" alt="Goodie Graveyard" width="250px" height="150px"/> </a>
+          <div class="col col-sm-4" id="holiday3Pic">
+            <a href="https://jazmyn.neocities.org/WebDesignMidtermProject/holiday1.html#christmasBrownies"> <img class="img-fluid" id="holiday_pics3" src="christmasBrownies.jpg" alt="Goodie Graveyard" width="250px" height="150px"/> </a>
           </div>
         </div> 
       </div> <!-- Holiday Portion--> 
       
       
-      <div class="row justify-sm-center" id="otherLinks">
-        <div class="col col-sm-12">
+      <div class="row justify-content-sm-center" id="otherLinks">
+        <div class="col-sm-12">
           <h3>Other Baking Links</h3>
         </div>
-          <div class="col col-sm-4">
+          <div class="col-sm-4" id="birthday">
+              <a href="#"> <img class="img-fluid" id="bdayPic" src="bday.jpg" alt="Chocolate Lover Birthday Cake" width="250px" height="50px"/> </a>
+              <h4 class="otherh4-1">Birthday Ideas</h4>
           </div>
-          <div class="col col-sm-4">
+          <div class="col-sm-4" id="wedding">
+              <a href="#"> <img class="img-fluid" id="weddingPic" src="wedding.jpg" alt="Groom and Bride cupcake" width="250px" height="150px"/> </a>
+              <h4 class="otherh4-2">Wedding Ideas</h4>
           </div>
-          <div class="col col-sm-4">
+          <div class="col-sm-4" id="babyShower">
+             <a href="#"> <img class="img-fluid" id="babyPic" src="babyPops.jpg" alt="Baby cake pop" width="250px" height="150px"/> </a>
+             <h4 class="otherh4-3">Baby Shower Ideas</h4>
           </div>
         </div>  
-      </div>
+  </div> <!--container-fluid-->
 
-    </div> <!--Container-fluid-->
+    <!--</div>-->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
